@@ -9,11 +9,16 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Set Context
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }} 
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
+    - uses: actions/checkout@v3
     - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
-        node-version: 16.x
+        node-version: '16'
     - name: yarn install
       run: yarn install
     - name: build application

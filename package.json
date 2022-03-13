@@ -1,3 +1,16 @@
 {
+  "name": "auto-volume-on-equalizer-apo",
+  "version": "1.0.0-SNAPSHOT",
+  "private": true,
+  "description": "時間ベースで音量を任意値に自動調整する。",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:nohto356/auto-volume-on-equalizer-apo.git"
+  },
+  "author": "nohto356 <notoito.public+github@gmail> (https://github.com/nohto356)",
+  "license": "MIT",
+  "scripts" : {
+    "pre-install": "npm install -g @angular/cli@13.2.6"
+  },
   "packageManager": "yarn@3.2.0"
 }

@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn non-use Zero-Installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

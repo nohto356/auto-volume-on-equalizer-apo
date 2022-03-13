@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
+import { VolumeControllerOnEqualizerAPOService } from './volume-controller-on-equalizer-apo.service';
 
 @NgModule({
-  declarations: [],
-  imports: [],
-  providers: []
+  providers: [ VolumeControllerOnEqualizerAPOService ]
 })
 export class CommonServiceModule { }

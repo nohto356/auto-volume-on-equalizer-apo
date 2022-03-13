@@ -1,6 +1,6 @@
 {
   "name": "auto-volume-on-equalizer-apo",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "0.0.0-SNAPSHOT",
   "private": true,
   "description": "時間ベースで音量を任意値に自動調整する。",
   "repository": {

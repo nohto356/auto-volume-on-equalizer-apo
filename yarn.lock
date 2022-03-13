@@ -4,8 +4,8 @@
 __metadata:
   version: 6
 
-"root-workspace-0b6124@workspace:.":
+"auto-volume-on-equalizer-apo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
+  resolution: "auto-volume-on-equalizer-apo@workspace:."
   languageName: unknown
   linkType: soft

@@ -9,7 +9,7 @@
   },
   "author": "nohto356 <notoito.public+github@gmail> (https://github.com/nohto356)",
   "license": "MIT",
-  "scripts" : {
+  "scripts": {
     "pre-install": "npm install -g @angular/cli@13.2.6"
   },
   "packageManager": "yarn@3.2.0"
